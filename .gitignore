@@ -1,0 +1,7 @@
+h5_files/
+results/
+work/
+.nextflow*
+*.log
+*.html
+*.sif
