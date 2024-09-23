@@ -1,0 +1,10 @@
+Scanpy Benchmarks:
+Function 'read_input_data' took 2.43 seconds
+Function 'quality_control' took 15.56 seconds
+Function 'doublet_detection' took 188.97 seconds
+Function 'normalization' took 1.03 seconds
+Function 'feature_selection' took 2.09 seconds
+Function 'dim_reduction' took 2.41 seconds
+Function 'umap' took 16.39 seconds
+Function 'clustering' took 4.71 seconds
+Function 'cell_type_annotation' took 85.94 seconds

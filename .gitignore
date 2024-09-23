@@ -3,6 +3,4 @@ results/
 pipeline_reports/
 work/
 .nextflow*
-*.log
-*.html
 *.sif
