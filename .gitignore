@@ -1,5 +1,6 @@
-h5_files/
+input_h5/
 results/
+pipeline_reports/
 work/
 .nextflow*
 *.log

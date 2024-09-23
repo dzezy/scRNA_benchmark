@@ -13,7 +13,6 @@ conda activate /home/dzhou/miniconda3/envs/nextflow
 # cd into directory with .nf file
 cd ~/scRNA_analysis
 
-# export NXF_SINGULARITY_CACHEDIR='/home/dzhou/scRNA_analysis/envs/'
-
 # run nextflow pipeline script
-nextflow run main.nf -resume
+#nohup nextflow run main.nf -profile singularity > nextflow.log 2>&1 &
+nohup nextflow run main.nf -profile docker > nextflow.log 2>&1 &

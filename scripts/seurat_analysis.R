@@ -3,7 +3,6 @@
 library(tidyverse)
 library(Seurat)
 library(pheatmap)
-#library(celldex)
 library(SingleR)
 library(viridis)
 library(DoubletFinder)
@@ -45,8 +44,8 @@ num_pcs <- 15 # number of Principal Components to keep for analysis, depends on 
 doublet_formation_rate <- 0.075  # for doublet prediction purposes
 
 # ref for cell annotation
-ref <- celldex::MonacoImmuneData()  
-# celldex::HumanPrimaryCellAtlasData()
+#ref <- celldex::MonacoImmuneData()  
+ref <- celldex::HumanPrimaryCellAtlasData()
 
 ## ------------------------------------------------------------------------------------------------------------------------------
 # Define timing decorator function
