@@ -1,0 +1,11 @@
+Seurat Benchmarks:
+Function 'read_input_data' took 6.2 seconds
+Function 'quality_control' took 1.85 seconds
+Function 'normalization' took 0.87 seconds
+Function 'feature_selection' took 0.84 seconds
+Function 'scale_data' took 0.53 seconds
+Function 'dim_reduction' took 18.08 seconds
+Function 'clustering' took 0.25 seconds
+Function 'umap' took 3.64 seconds
+Function 'doublet_detection' took 49.3 seconds
+Function 'cell_type_annotation' took 4.2 seconds
